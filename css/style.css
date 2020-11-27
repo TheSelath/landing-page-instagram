@@ -15,6 +15,8 @@ body {
 	padding: 0;
 	display: flex; /* conteiner flex = tudo que tiver dentro fica em linha ocupando todo o espaço necessario*/
 	justify-content: center;
+
+
 }
 
 .instagram-wrapper {
@@ -117,13 +119,40 @@ body {
 .get-donwload {
 	height: 3rem;
 	width: 10rem;
-	background-size: cover;	
+	background-size: cover;		
 }
 
-.app-download:nth-child(1){
-	background-image: url('./img/app-store.png');
+.app-download img{
+	width: 150px;
+	padding: 0;
 }
 
-.app-download:nth-child(2){
-	background-image: url('./img/google-play.png');
+/* midia querie */
+
+@media (max-width: 1024px) {
+	.instagram-wrapper{
+		width: 90%;
+	}
+}
+
+@media (max-width: 650px) {
+	body {
+		background-color: #ffffff
+	}
+
+	.instagram-wrapper{
+		width: 90%
+	}
+
+	.instagram-phone {
+		display: none;
+	}
+
+	.instagram-continue {
+		width: 100%;
+	}
+
+	.group {
+		border: 1px solid transparent;
+	}
 }
