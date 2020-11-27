@@ -1,6 +1,6 @@
 # Recriando Página do Instagram
 
-Projeto de criação da Landing Page do Instagram para Login.
+Projeto de criação da Landing Page do Instagram para Login. O Projeto, faz parte do BootCamp da Everis pela DIO.
 
 Será abordado os seguintes assuntos
 
